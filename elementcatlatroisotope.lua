@@ -13,6 +13,10 @@ elementcattos.isotopeSprites = {
 	[26] = {
 		w = 1,
 		o = {60}
+	},
+	[120] = {
+		w = 1,
+		o = {297}
 	}
 }
 
