@@ -34,6 +34,7 @@ elementcattos.applyIsotopeSprite = function(card, neutrons)
 	if center and center.mod and center.original_mod.id == "ElementCatlatro" and center.atomic_number then
 		local iso = elementcattos.isotopeSprites[center.atomic_number]
 		if iso then
+			neutrons = neutrons or elementcattos.getNeutrons(card)
 			local n = topuplib.getValueIndex(iso.o, neutrons)
 			card.children.center.atlas = SMODS.Atlases[n and "ecattosi_iso"..center.atomic_number or center.atlas]
 			card.children.center:set_sprite_pos(n and {x = n % iso.w, y = math.floor(n / iso.w)} or center.pos)
