@@ -42,3 +42,11 @@ elementcattos.applyIsotopeSprite = function(card, neutrons)
 		end
 	end
 end
+
+local start_run_ref = Game.start_run
+function Game:start_run(...)
+	start_run_ref(self, ...)
+	for k,v in pairs(G.I.CARD) do
+		elementcattos.applyIsotopeSprite(v)
+	end
+end
