@@ -7,7 +7,7 @@
 	"prefix": "ecattosi",
 	"main_file": "elementcatlatroisotope.lua",
 	"version": "0.0.0",
-	"priority": 2,
+	"priority": 1.01,
 	"dependencies": [
 		"Steamodded (>=1.0.0~ALPHA-1424a)",
 		"Lovely (>=0.6.0)",
