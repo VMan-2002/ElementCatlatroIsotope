@@ -1,0 +1,10 @@
+{
+	"githubPath": "VMan-2002/ElementCatlatroIsotope",
+	"relations": [
+		{
+			"id": "ElementCatlatro",
+			"githubPath": "VMan-2002/ElementCatlatro",
+			"type": "required"
+		}
+	]
+}
